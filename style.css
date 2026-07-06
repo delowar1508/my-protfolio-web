@@ -1,0 +1,153 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+img {
+    max-width: 100%;
+}
+/* Navbar  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+/* common btn */
+.common-btn{
+    background-color: #FD6E0A;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.common-btn:hover {
+    background-color: red;
+    color: black;
+}
+.outline-btn:hover{
+    color: rgb(255, 0, 0);
+}
+.outline-btn{
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FD6E0A;
+    border: none;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+    background-color: white;
+}
+/* common class */
+.conteiner{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 32px;
+}
+.loro-r{
+    color: #FD6E0A;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+    color: #000000;
+}
+ul li a{
+    text-decoration: none;
+}
+/* Hero section */
+.hero-parent-root{
+    background-color: #fff8f3;
+}
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left-p1 {
+    font-size: 45px;
+    font-weight: 600px;
+}
+.hero-left-p2 {
+    font-size: 18px;
+}
+.hero-left h2 {
+    font-weight: bold;
+    font-size: 85px;
+    margin-bottom: 10px;
+}
+.hero-left-btn-parent{
+    display: flex;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+/* about section css */
+.about-parent{
+    background-color: #fff8f3;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 75px;
+    text-align: center;
+}
+.about1{
+    font-size: 35px;
+}
+.p1{
+    font-size: 18px;
+}
+.about-parent p{
+    margin: 10px 0;
+    font-size: 18px;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.box-parent p{
+    font-size: 20px;
+    color: #757575;
+}
+.box-parent h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* what i do section css */
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+}
+.what-i-do-card-conteiner {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;        
+    gap: 8px;
+}
+.what-i-do-card-conteiner .what-i-do-card {
+    border: 2px solid #7f7b7b;
+    box-shadow: 5px 5px 20px black;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: left;
+}
+.what-i-do-card-conteiner .what-i-do-card h2{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.what-i-do-card-conteiner .what-i-do-card p{
+    color: #757575;
+    font-size: 16px;
+}
