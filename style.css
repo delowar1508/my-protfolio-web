@@ -151,3 +151,186 @@ ul li a{
     color: #757575;
     font-size: 16px;
 }
+/* a summary section css */
+.mini-heading{
+    font-size: 25px;
+    font-weight:bold;
+    color: black;
+}
+.headeing{
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 35px;
+}
+.heading-3rd{
+    padding: 8px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+}
+.a-summary-parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+.a-summary-parent p {
+        color: #757575; 
+}
+.a-summary-master{
+    padding: 15px 10px;
+}
+.a-summary-left{
+    text-align: left;
+}
+.a-summary-right{
+    text-align: left;
+}
+.common-btn-2{
+    background-color: #FD6E0A;
+    padding: 10px 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.common-btn-2:hover{
+    background-color: red;
+    color: black;
+}
+
+/* Amaizing work style */
+.my-ameizing-work-parent h2{
+    margin-top: 40px;
+}
+.my-ameizing-work-parent{
+    text-align: center;
+}
+.gallary{
+    display: grid;
+    margin-top: 20px;
+    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six";
+    
+}
+.gallary img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.box-1 {
+    grid-area: one;
+}
+.box-2 {
+    grid-area: two;
+}
+.box-3 {
+    grid-area: three;
+}
+.box-4 {
+    grid-area: four;
+}
+.box-5 {
+    grid-area: five;
+}
+.box-6 {
+    grid-area: six;
+}
+
+/* footer */
+footer {
+    background: #fff8f3;
+    margin-top: 80px;
+    padding: 70px 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+/* Left Section */
+
+.footer-left h2,
+footer h2 {
+    font-size: 32px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.footer-left p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+/* Social Icons */
+
+.footer-icon-parent {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.footer-icon-parent span {
+    width: 48px;
+    height: 48px;
+    background: #FD6E0A;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.footer-icon-parent span:hover {
+    background: #181818;
+    transform: translateY(-5px);
+}
+
+/* Form */
+
+footer form {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+footer form input,
+footer form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    transition: .3s;
+    box-sizing: border-box;
+}
+
+footer form input:focus,
+footer form textarea:focus {
+    border-color: #FD6E0A;
+    box-shadow: 0 0 8px rgba(253,110,10,.25);
+}
+
+footer form textarea {
+    resize: none;
+}
